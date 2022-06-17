@@ -17,7 +17,7 @@ int main(void)
         digit1 *= 2;
 
         // If the result is not one-digit, calculate the sum of the digits
-        while (digit1 > 9)
+        if (digit1 > 9)
         {
             int b = digit1 % 10;
             digit1 /= 10;
